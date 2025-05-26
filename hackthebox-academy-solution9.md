@@ -4,5 +4,5 @@
 **Answer:** Find out the location of **"dconf.service"** file using `find` command. If it is located into a single directory then
 ```bash
 filepath=$(find / -type f -name "dconf.service" 2>/dev/null)
-cat "$file" | grep "^Type" | awk -F'=' '{print $2}'
+cat "$filepath" | grep "^Type" | awk -F'=' '{print $2}'
 ```
