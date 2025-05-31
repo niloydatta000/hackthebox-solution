@@ -1,8 +1,9 @@
- Hack The Box Solution  6
+ # Hack The Box Solution  10
 
 ### 1. Find a way to start a simple HTTP server inside Pwnbox or your local VM using "npm". Submit the command that starts the web server on port 8080 (use the short argument to specify the port number).
 **Answer:** RUN  `npm install -g http-server` command to install **http-server** module
 ```bash
+sudo npm install -g http-server
 if [ ! -d "httpserver" ]; then
 	mkdir "httpserver"
 fi
