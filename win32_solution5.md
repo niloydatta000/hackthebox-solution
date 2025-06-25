@@ -5,7 +5,7 @@
 ```powershell
 Get-Alias
 ```
-###Find the Execution Policy set for the LocalMachine scope?
+### Find the Execution Policy set for the LocalMachine scope?
 **Answer:** RUN `Get-ExecutionPolicy -List` command
 ```powershell
 Get-ExecutionPolicy -List
